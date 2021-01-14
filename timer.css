@@ -1,0 +1,55 @@
+body {
+	margin: 0 0 0 0;
+	font-family: Arial;
+	background: black;
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+}
+
+#controls {
+	padding-top: 7px;
+	height: 20px;
+	width: 700px;
+	font-size: 14px;
+	color: black;
+}
+
+#controls img {
+	vertical-align: middle;
+	padding-left: 20px;
+}
+	
+#clock {
+	font-size: 14px;
+	color: #000000;
+	width: 300px;
+	padding-top: 10px;
+	text-align: right;
+	position: absolute;
+	left: 700;
+	float: right;
+}
+	
+#timer {
+	margin-top: 8px;
+	height: 400px;
+	width: 1024px;
+	font-size: 350px;
+	text-align: center;
+}
+	
+#timer small {
+	font-weight: lighter;
+	font-size: 200px;
+	font-style: italic;
+	color: #333333;
+}
+	
+#bar_area {
+	margin-top: 20px;
+	height: 285px;
+	width: 962px;
+	padding-left: 62;
+	line-height: 230px;
+	font-size: 200px;
+	}

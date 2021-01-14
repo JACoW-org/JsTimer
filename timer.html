@@ -1,0 +1,22 @@
+<html>
+
+<head>
+	<title>JsTimer</title>
+	<meta name="Author" content="Stefano Deiuri" />
+	<meta name="Software" content="JsTimer" version="1.0" date="2008.06.25" />
+	<link rel="stylesheet" type="text/css" href="timer.css" />
+	<script src='timer.js'></script>
+</head>
+
+<body>
+<div id='clock'></div>
+<div id='controls'>
+	<a href='javascript:set_tt();'><img src='images/run.png' border='0' width='22' height='22' /></a> Total time <span id='tt'></span>
+	<a href='javascript:set_wt();'><img src='images/run.png' border='0' width='22' height='22' /></a> Warning time <span id='wt'></span>
+	<a href='javascript:timer_reset();'><img src='images/player_stop.png' border='0' width='22' height='22' /></a> Reset
+	<a href='javascript:timer_play();'><img id='ppimg' src='images/player_play.png' border='0' width='22' height='22' /></a> <span id='pp'>Play</span> <span id='lt'></span> 
+	</div>
+<div id='timer'>----</div>
+<div id='bar_area'></div>
+</body>
+</html>
